@@ -8,7 +8,8 @@ Documentation of all questions that I have faced during interviews. Basically th
 ### introudction
 
 ```
-My name is Arjun Dahal.I am currently working on xyzcompany name as full stack mobile app developer. I have 2 years of experience in android development, 1 year in flutter and 1 year in go development.
+My name is Arjun Dahal.I am currently working on xyzcompany name as full stack mobile app developer. 
+I have 2 years of experience in android development, 1 year in flutter and 1 year in go development.
 
 I Specialize in these skills (read their requirement and try to match those sills):
 
@@ -120,6 +121,24 @@ Ans: Base class for widgets that efficiently propagate information down the tree
 
 6. How do we find Screen sizes and resolution?
 Ans: Using MediaQuery
+
+7. How can we implement LazyLoading?
+Ans: 
+- You can listen to a ScrollController.
+- ScrollController has some useful information, such as the scrolloffset and a list of ScrollPosition.
+- ScrollPosition contains informations about it's position inside the scrollable. Such as extentBefore and extentAfter. Or it's size, with extentInside.
+- Considering this, you could trigger a server call based on extentAfter which represents the remaining scroll space available.
+
+10. What's the use of Vsync?
+Ans: Vsync/TickerProvider allows animations to be muted, slowed, or fast-forwarded.
+
+11. How can we serialize complex json?
+Ans: We can use json_serializable package and use that to generate code for us. similar to gson on native android development.
+
+12. What is Dio?
+Ans: Dio is a powerful HTTP client for Dart. It has support for interceptors, global configuration, FormData, request cancellation, file downloading, and timeout, among others. Flutter offers an http package that’s nice for performing basic network tasks but is pretty daunting to use when handling some advanced features. By comparison, Dio provides an intuitive API for performing advanced network tasks with ease.
+
+
 
 
 ## StateManagement Related Questions
