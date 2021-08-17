@@ -119,23 +119,23 @@ Ans: An Element that uses a StatefulWidget as its configuration.
 5. What is InheritedWidget? <br/>
 Ans: Base class for widgets that efficiently propagate information down the tree. e.g. Theme.of(context).primaryIconTheme.color <br/>
 
-6. How do we find Screen sizes and resolution?
+6. How do we find Screen sizes and resolution?<br/>
 Ans: Using MediaQuery
 
-7. How can we implement LazyLoading?
+7. How can we implement LazyLoading? <br/>
 Ans: 
 - You can listen to a ScrollController.
 - ScrollController has some useful information, such as the scrolloffset and a list of ScrollPosition.
 - ScrollPosition contains informations about it's position inside the scrollable. Such as extentBefore and extentAfter. Or it's size, with extentInside.
 - Considering this, you could trigger a server call based on extentAfter which represents the remaining scroll space available.
 
-10. What's the use of Vsync?
+10. What's the use of Vsync? <br/>
 Ans: Vsync/TickerProvider allows animations to be muted, slowed, or fast-forwarded.
 
-11. How can we serialize complex json?
+11. How can we serialize complex json? <br/>
 Ans: We can use json_serializable package and use that to generate code for us. similar to gson on native android development.
 
-12. What is Dio?
+12. What is Dio? <br/>
 Ans: Dio is a powerful HTTP client for Dart. It has support for interceptors, global configuration, FormData, request cancellation, file downloading, and timeout, among others. Flutter offers an http package that’s nice for performing basic network tasks but is pretty daunting to use when handling some advanced features. By comparison, Dio provides an intuitive API for performing advanced network tasks with ease.
 
 
