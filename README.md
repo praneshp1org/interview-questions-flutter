@@ -119,7 +119,7 @@ Ans: An Element that uses a StatefulWidget as its configuration.
 5. What is InheritedWidget? <br/>
 Ans: Base class for widgets that efficiently propagate information down the tree. e.g. Theme.of(context).primaryIconTheme.color <br/>
 
-6. How do we find Screen sizes and resolution?
+6. How do we find Screen sizes and resolution?<br/>
 Ans: Using MediaQuery
 
 7. How can we implement LazyLoading? <br/>
