@@ -138,7 +138,11 @@ Ans: We can use json_serializable package and use that to generate code for us. 
 12. What is Dio? <br/>
 Ans: Dio is a powerful HTTP client for Dart. It has support for interceptors, global configuration, FormData, request cancellation, file downloading, and timeout, among others. Flutter offers an http package that’s nice for performing basic network tasks but is pretty daunting to use when handling some advanced features. By comparison, Dio provides an intuitive API for performing advanced network tasks with ease.
 
+13. What is ValueNotifier? <br/>
+Ans. A ValueNotifier can hold a single value. The value itself can be of any type. It can be an int, a String, a bool or your own data type.Using a ValueNotifier improves the performance of Flutter app as it can help to reduce the number times a widget gets rebuilt.
 
+14. What Is A ValueListenableBuilder? <br/>
+Ans. A ValueListenableBuilder is a very useful widget that works well with ValueNotifier. It listens to the value emitted by ValueNotifier and gets rebuilt whenever a new value is emitted.
 
 
 ## StateManagement Related Questions
