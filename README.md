@@ -182,3 +182,7 @@ Ans: The FutureProvider listens for when the Future completes and then notifies 
 8. What is StreamProvider? <br/>
 Ans:StreamProvider is basically a wrapper around a StreamBuilder. You provide a stream and then then the Consumers get rebuilt when there is an event in the stream. The StreamProvider doesn’t listen for changes in the model itself. It only listens for new events in the stream. </br>
 
+
+
+### Design patterns in Dart
+[SOLID](https://github.com/ArjunDahal864/SOLID_principle_in_dart)
