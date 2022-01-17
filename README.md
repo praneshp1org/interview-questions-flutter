@@ -67,6 +67,10 @@ Ans: Mixins are a way to abstract and reuse a family of operations and state. It
 9. What with keyowrd is used for? <br/>
 Ans: With is used to include Mixins. A mixin is a different type of structure, which can only be used with the keyword with. <br/>
 
+10. How many null aware operator in flutter? <br/>
+Ans: ?. , ?? , and ??= . 
+
+
 <!-- Reactive  -->
 
 #### Reactive Programming 
@@ -99,6 +103,7 @@ Ans: ReplaySubject captures all items that have been added. When a new listener 
 
 19. What is PublishSubject in RxDart? <br/>
 Ans: PublishSubject emits all the items on listen that is added. <br/>
+
 
 
 
@@ -144,6 +149,15 @@ Ans. A ValueNotifier can hold a single value. The value itself can be of any typ
 14. What Is A ValueListenableBuilder? <br/>
 Ans. A ValueListenableBuilder is a very useful widget that works well with ValueNotifier. It listens to the value emitted by ValueNotifier and gets rebuilt whenever a new value is emitted.
 
+15. How many types of stream are there in flutter?
+Ans: 2  single subscription streams and broadcast streams
+
+16. How many Life cycle of statefulwidget ?
+Ans: 7, constructor function,create state, initState, didChangeDependencies,build,deactivate,dispose
+
+18. What is flutter activity?
+Ans: FlutterActivity is the simplest and most direct way to integrate Flutter within an Android app.
+
 
 ## StateManagement Related Questions
 
@@ -186,6 +200,8 @@ Ans: The FutureProvider listens for when the Future completes and then notifies 
 8. What is StreamProvider? <br/>
 Ans:StreamProvider is basically a wrapper around a StreamBuilder. You provide a stream and then then the Consumers get rebuilt when there is an event in the stream. The StreamProvider doesn’t listen for changes in the model itself. It only listens for new events in the stream. </br>
 
+9. How many types of flutter Stream are available?
+Ans: 
 
 
 ### Design patterns in Dart
